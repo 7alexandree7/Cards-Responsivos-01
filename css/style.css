@@ -100,7 +100,7 @@ main.cards section.card.about {
 @media screen and (max-width: 720px) {
 
     body {
-        height: 150vh;
+        height: 170vh;
     }
    
      main.cards {
@@ -123,6 +123,16 @@ main.cards section.card.about {
      }
 
 
+}
+
+
+@media screen and (max-width: 450px)
+ {
+    main.cards section.card {
+        flex-direction: column;
+        margin-bottom: 30px;
+        
+     }
 }
 
 
